@@ -1,5 +1,7 @@
 # Proposal Array ranges literal
 
+Possibly integrated with https://github.com/tc39/proposal-slice-notation/issues/19
+
 `Array.from({length: n}, (value, i, arr) => {}?)` is not so convenient for creating ranges:
 ```js
 Array.from({length: 8}, (_, i) => i + 1)
